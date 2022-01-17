@@ -1,0 +1,28 @@
+#sidebar:checked + #sideb {
+    display: none;
+}
+
+#sideb{
+    height: 100%;
+}
+@media screen and (max-width: 992px) {
+    #sideb{
+        position: absolute;
+        top: 0;
+        z-index: 1;
+        display: none;
+    }
+    .body{
+        width: 100%;
+        position: relative;
+    }
+    #sidebar:checked + #sideb {
+        display: block;
+
+        
+    
+    } 
+    #sideb{
+        height: 100%;
+    }
+}
