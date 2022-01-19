@@ -1,10 +1,11 @@
 #sidebar:checked + #sideb {
     display: none;
 }
-
-#sideb{
-    height: 100%;
+#sb1{
+    display: none;
 }
+
+
 @media screen and (max-width: 992px) {
     #sideb{
         position: absolute;
@@ -22,7 +23,8 @@
         
     
     } 
-    #sideb{
-        height: 100%;
+    #sb1{
+        display: block;
     }
+  
 }
