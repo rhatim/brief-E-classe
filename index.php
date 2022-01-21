@@ -28,7 +28,7 @@
           </div>
         </div>
         <div class="d-grid pt-3">
-            <a type="submit" href="p2.html" class="btn btn-info text-white">SIGN IN</a>
+            <a type="submit" href="p2.php" class="btn btn-info text-white">SIGN IN</a>
         </div>
         <p class="text-center mt-3">Forgot your password?<span> <a class="text-info" href="#">Reset password</a> </span> </p>
       </form>

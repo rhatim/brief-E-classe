@@ -27,47 +27,56 @@ include 'all.php'
                       </tr>
                     </thead>
                     <tbody>
-                      <tr>
-                        <td>Karthi</td>
-                        <td>First</td>
-                        <td>00012223</td>
-                        <td>DHS 100,000</td>
-                        <td>DHS 500,000</td>
-                        <td>05-Jan, 2022</td>
-                        <td><i class="bi bi-eye text-info"></i></td>
-                      </tr>
-                      <tr>
-                        <td>Karthi</td>
-                        <td>First</td>
-                        <td>00012223</td>
-                        <td>DHS 100,000</td>
-                        <td>DHS 500,000</td>
-                        <td>05-Jan, 2022</td>
-                        <td><i class="bi bi-eye text-info"></i></td>
-                      </tr>
-                      <tr>
-                        <td>Karthi</td>
-                        <td>First</td>
-                        <td>00012223</td>
-                        <td>DHS 100,000</td>
-                        <td>DHS 500,000</td>
-                        <td>05-Jan, 2022</td>
-                        <td><i class="bi bi-eye text-info"></i></td>
-                      </tr>
-                      <tr>
-                        <td>Karthi</td>
-                        <td>First</td>
-                        <td>00012223</td>
-                        <td>DHS 100,000</td>
-                        <td>DHS 500,000</td>
-                        <td>05-Jan, 2022</td>
-                        <td><i class="bi bi-eye text-info"></i></td>
-                      </tr>
+                    <?php 
+                    $payments = [
+                      [
+                        'name' => 'karthi',
+                        'payment_schedule' => 'first',
+                        'bill-Number' => '00012223',
+                        'amount_paid' => 'dhs_100,000',
+                        'balance_amount' => 'dhs_500,000',
+                        'date' => '05-jan,_2022',
+                      ],
+                      [
+                        'name' => 'karthi',
+                        'payment_schedule' => 'first',
+                        'bill-Number' => '00012223',
+                        'amount_paid' => 'dhs_100,000',
+                        'balance_amount' => 'dhs_500,000',
+                        'date' => '05-jan,_2022',
+                      ],[
+                        'name' => 'karthi',
+                        'payment_schedule' => 'first',
+                        'bill-Number' => '00012223',
+                        'amount_paid' => 'dhs_100,000',
+                        'balance_amount' => 'dhs_500,000',
+                        'date' => '05-jan,_2022',
+                      ],[
+                        'name' => 'karthi',
+                        'payment_schedule' => 'first',
+                        'bill-Number' => '00012233',
+                        'amount_paid' => 'dhs_100,000',
+                        'balance_amount' => 'dhs_500,000',
+                        'date' => '05-jan,_2022',
+                      ]
+                      ];
+                      foreach($payments as $user){
+                        echo "<tr>
+                          <td>".$user['name']."</td>
+                          <td>".$user['payment_schedule']."</td>
+                          <td>".$user['bill-Number']."</td>
+                          <td>".$user['amount_paid']."</td>
+                          <td>".$user['balance_amount']."</td>
+                          <td>".$user['date']."</td>
+                          <td>".$user['name']."</td>
+                          <td><i class='bi bi-eye text-info'></i></td>
+                          
 
-                     
-                     
-                     
-                      
+                        
+                        </tr>";
+                      }
+                                    
+                                ?>
                     </tbody>
                   </table>
                 </div>

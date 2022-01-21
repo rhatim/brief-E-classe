@@ -18,7 +18,7 @@ include 'all.php'
                 <table>
                     <thead style="color: rgba(78, 73, 73, 0.211); " class="bg-light ">
                       <tr>
-                        <th scope="col"> </th>
+                        <th scope="col"></th>
                         <th scope="col">Name</th>
                         <th scope="col">Email</th>
                         <th scope="col">Phone </th>
@@ -28,83 +28,98 @@ include 'all.php'
                       </tr>
                     </thead>
                     <tbody>
-                      <tr>
-                        <th scope="row"><img style="width: 90px;" src="./images/gens-se-reunissent-au-bar-du-restaurant-pour-diner-isole-illustration-vectorielle-plane-dessin-anime-hommes-femmes-buvant-du-vin-biere-dans-pub_74855-8505 (1).jpg" alt=""></th>
-                        <td>username</td>
-                        <td>user@email.com</td>
-                        <td>7305477760</td>
-                        <td>1234567305477760</td>
-                        <td>08-Dec, 2021</td>
-                        <td><i class="bi bi-pencil text-info mx-4"></i><i class="bi bi-trash text-info"></i></td>
+                      <?php
+                      $students = [
+                        [
+                          'name' => 'username',
+                          'email' => 'user@email.com',
+                          'phone' => '7305477760',
+                          'enroll_number' => '1234567305477760',
+                          'date_of_admission' => '08,-dec, 2021',
+                          'email' => 'user@email.com',
 
-                      </tr>
-                      <tr>
-                        <th scope="row"><img style="width: 90px;" src="./images/gens-se-reunissent-au-bar-du-restaurant-pour-diner-isole-illustration-vectorielle-plane-dessin-anime-hommes-femmes-buvant-du-vin-biere-dans-pub_74855-8505 (1).jpg" alt=""></th>
-                        <td>username</td>
-                        <td>user@email.com</td>
-                        <td>7305477760</td>
-                        <td>1234567305477760</td>
-                        <td>08-Dec, 2021</td>
-                        <td><i class="bi bi-pencil text-info mx-4"></i><i class="bi bi-trash text-info"></i></td>
+                        ],
+                        [
+                          'name' => 'username',
+                          'email' => 'user@email.com',
+                          'phone' => '7305477760',
+                          'enroll_number' => '1234567305477760',
+                          'date_of_admission' => '08,-dec, 2021',
+                          'email' => 'user@email.com',
 
-                      </tr>
-                      <tr>
-                        <th scope="row"><img style="width: 90px;" src="./images/gens-se-reunissent-au-bar-du-restaurant-pour-diner-isole-illustration-vectorielle-plane-dessin-anime-hommes-femmes-buvant-du-vin-biere-dans-pub_74855-8505 (1).jpg" alt=""></th>
-                        <td>username</td>
-                        <td>user@email.com</td>
-                        <td>7305477760</td>
-                        <td>1234567305477760</td>
-                        <td>08-Dec, 2021</td>
-                        <td><i class="bi bi-pencil text-info mx-4"></i><i class="bi bi-trash text-info"></i></td>
+                        ],
+                        [
+                          'name' => 'username',
+                          'email' => 'user@email.com',
+                          'phone' => '7305477760',
+                          'enroll_number' => '1234567305477760',
+                          'date_of_admission' => '08,-dec, 2021',
+                          'email' => 'user@email.com',
 
-                      </tr>
-                      <tr>
-                        <th scope="row"><img style="width: 90px;" src="./images/gens-se-reunissent-au-bar-du-restaurant-pour-diner-isole-illustration-vectorielle-plane-dessin-anime-hommes-femmes-buvant-du-vin-biere-dans-pub_74855-8505 (1).jpg" alt=""></th>
-                        <td>username</td>
-                        <td>user@email.com</td>
-                        <td>7305477760</td>
-                        <td>1234567305477760</td>
-                        <td>08-Dec, 2021</td>
-                        <td><i class="bi bi-pencil text-info mx-4"></i><i class="bi bi-trash text-info"></i></td>
+                        ],
+                        [
+                          'name' => 'username',
+                          'email' => 'user@email.com',
+                          'phone' => '7305477760',
+                          'enroll_number' => '1234567305477760',
+                          'date_of_admission' => '08,-dec, 2021',
+                          'email' => 'user@email.com',
 
-                      </tr>
-                      <tr>
-                        <th scope="row"><img style="width: 90px;" src="./images/gens-se-reunissent-au-bar-du-restaurant-pour-diner-isole-illustration-vectorielle-plane-dessin-anime-hommes-femmes-buvant-du-vin-biere-dans-pub_74855-8505 (1).jpg" alt=""></th>
-                        <td>username</td>
-                        <td>user@email.com</td>
-                        <td>7305477760</td>
-                        <td>1234567305477760</td>
-                        <td>08-Dec, 2021</td>
-                        <td><i class="bi bi-pencil text-info mx-4"></i><i class="bi bi-trash text-info"></i></td>
+                        ],
+                        [
+                          'name' => 'username',
+                          'email' => 'user@email.com',
+                          'phone' => '7305477760',
+                          'enroll_number' => '1234567305477760',
+                          'date_of_admission' => '08,-dec, 2021',
+                          'email' => 'user@email.com',
 
-                      </tr>
-                      <tr>
-                        <th scope="row"><img style="width: 90px;" src="./images/gens-se-reunissent-au-bar-du-restaurant-pour-diner-isole-illustration-vectorielle-plane-dessin-anime-hommes-femmes-buvant-du-vin-biere-dans-pub_74855-8505 (1).jpg" alt=""></th>
-                        <td>username</td>
-                        <td>user@email.com</td>
-                        <td>7305477760</td>
-                        <td>1234567305477760</td>
-                        <td>08-Dec, 2021</td>
-                        <td><i class="bi bi-pencil text-info mx-4"></i><i class="bi bi-trash text-info"></i></td>
+                        ],
+                        [
+                          'name' => 'username',
+                          'email' => 'user@email.com',
+                          'phone' => '7305477760',
+                          'enroll_number' => '1234567305477760',
+                          'date_of_admission' => '08,-dec, 2021',
+                          'email' => 'user@email.com',
 
-                      </tr>
-                      <tr>
-                        <th scope="row"><img style="width: 90px;" src="./images/gens-se-reunissent-au-bar-du-restaurant-pour-diner-isole-illustration-vectorielle-plane-dessin-anime-hommes-femmes-buvant-du-vin-biere-dans-pub_74855-8505 (1).jpg" alt=""></th>
-                        <td>username</td>
-                        <td>user@email.com</td>
-                        <td>7305477760</td>
-                        <td>1234567305477760</td>
-                        <td>08-Dec, 2021</td>
-                        <td><i class="bi bi-pencil text-info mx-4"></i><i class="bi bi-trash text-info"></i></td>
+                        ],
+                        [
+                          'name' => 'username',
+                          'email' => 'user@email.com',
+                          'phone' => '7305477760',
+                          'enroll_number' => '1234567305477760',
+                          'date_of_admission' => '08,-dec, 2021',
+                          'email' => 'user@email.com',
 
-                      </tr>
+                        ]
+                        ];
+                        
+                        foreach ($students as $stdnt){
+                          echo "<tr>
+                               <td> <img src='images/table.svg' alt=></td>
+                               <td>".$stdnt['name']."</td>
+                               <td>".$stdnt['email']."</td>
+                               <td>".$stdnt['phone']."</td>
+                               <td>".$stdnt['enroll_number']."</td>
+                               <td>".$stdnt['date_of_admission']."</td>
+                               
+                               <td><i class='bi bi-pencil text-info mx-4'></i><i class='bi bi-trash text-info'></i></td>
+                          </tr>";
+
+                        }
+
+
+                      ?>
                       
-                    </tbody>
+
+                   
+
+
+                     </tbody>
                   </table>
-                </div>
+              </div>
             </div>
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
-</html>
+                            </body>
+                            </html>
